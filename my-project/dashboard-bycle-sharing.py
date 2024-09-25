@@ -20,8 +20,8 @@ def create_grouped_per_season(df):
     return grouped_per_season
 
 # Load dataset
-data_day = pd.read_csv('data_day.csv')
-data_hour = pd.read_csv('data_hour.csv')
+data_day = pd.read_csv('my-project/data_day.csv')
+data_hour = pd.read_csv('my-project/data_hour.csv')
 
 # membuat object dari data
 sharing_bycycle_per_year = create_grouped_per_year(data_day)
